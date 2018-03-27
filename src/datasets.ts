@@ -3,7 +3,7 @@
  */
 
 declare var descOutside: any; // Defined by desc_outside.js
-var dataOutsideUrl = './data_outside.csv';
+declare var dataOutsideUrl = './data_outside.csv';
 
 // TODO: Remove this, or make optional depending on Webpack param?
 // import * as dataSP500 from 'file-loader!./data/sp500_2015-06-26.csv';
