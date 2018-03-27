@@ -2,9 +2,6 @@
  * Created by sam on 04.11.2016.
  */
 
-declare var descOutside: any; // Defined by desc_outside.js
-declare var dataOutsideUrl = './data_outside.csv';
-
 // TODO: Remove this, or make optional depending on Webpack param?
 // import * as dataSP500 from 'file-loader!./data/sp500_2015-06-26.csv';
 // import * as descSP500 from './data/sp500.json';
@@ -24,12 +21,13 @@ export interface IDataSetSpec {
 }
 
 // TODO:
+declare var descOutside: any; // Defined by desc_outside.js
 const data: IDataSetSpec[] = [
   {
     id: 'outside',
     name: 'outside',
     desc: descOutside,
-    url: dataOutsideUrl
+    url: './data_outside.csv'
   }
 ];
 
