@@ -23,12 +23,12 @@ export interface IDataSetSpec {
 // TODO:
 declare var descOutside: any; // Defined by desc_outside.js
 const data: IDataSetSpec[] = [
-  {
-    id: 'outside',
-    name: 'outside',
-    desc: descOutside,
-    url: './data_outside.csv'
-  }
+  // {
+  //   id: 'outside',
+  //   name: 'outside',
+  //   desc: descOutside,
+  //   url: './data_outside.csv'
+  // }
 ];
 
 // TODO: Remove this, or make optional depending on Webpack param?
